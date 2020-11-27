@@ -61,7 +61,7 @@ body {
 
 .wrapper   {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-left: 143px;
         margin-right: 143px;
         

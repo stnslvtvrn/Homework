@@ -62,25 +62,24 @@ body {
 .wrapper   {
         display: flex;
         justify-content: space-around;
-        align-items: center;
         margin-left: 143px;
         margin-right: 143px;
         
     }
 
-.icon {
-    width: 70px;
-    height: 70px;
-}
 
 .card {
     font-size: 100%;
     text-align: center;
     width: 350px;
     margin-bottom: 105px;
+   
 }
 .icon {
+    width: 70px;
+    height: 70px;
     margin-bottom: 29px;
+    
 }
 .card-title {
     margin-bottom: 25px;
@@ -92,6 +91,7 @@ body {
     letter-spacing: normal;
     line-height: 24px;
     text-align: center;
+    
 }
 
 .card-text {

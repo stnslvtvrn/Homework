@@ -1,0 +1,106 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 100%;
+   
+}
+
+.container-wrapper {
+    width: 1400px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+
+
+
+.title {
+    height: 26px;
+    color: #212121;
+    font-size: 36px;
+    margin-top: 108px;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #212121;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    
+}
+
+
+.underline {
+    
+    border-bottom: 2px solid #ff8b38;
+    width: 64px;
+    margin: auto;
+}
+
+.title-subtext {
+    height: 14px;
+    color: #86878b;
+    font-family: "Open Sans";
+    margin-top: 30px;
+    text-align: center;
+    line-height: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-bottom: 80px;
+}
+
+.wrapper   {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 143px;
+        margin-right: 143px;
+        
+    }
+
+.icon {
+    width: 70px;
+    height: 70px;
+}
+
+.card {
+    font-size: 100%;
+    text-align: center;
+    width: 350px;
+    margin-bottom: 105px;
+}
+.icon {
+    margin-bottom: 29px;
+}
+.card-title {
+    margin-bottom: 25px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+}
+
+.card-text {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+}

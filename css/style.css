@@ -7,13 +7,13 @@ body {
     max-width: 100%;
 }
 
-.container {
+.awesome {
     max-width: 100%;
    
 }
 
-.container-wrapper {
-    width: 1400px;
+.container {
+    max-width: 1400px;
     border: 1px solid black;
     margin: 0 auto;
 }
@@ -21,8 +21,8 @@ body {
 
 
 
-.title {
-    height: 26px;
+.awesome__title {
+    
     color: #212121;
     font-size: 36px;
     margin-top: 108px;
@@ -39,27 +39,29 @@ body {
 }
 
 
-.underline {
+.awesome__underline {
     
     border-bottom: 2px solid #ff8b38;
     width: 64px;
     margin: auto;
 }
 
-.title-subtext {
-    height: 14px;
-    color: #86878b;
-    font-family: "Open Sans";
+.awesome__subtitle {
     margin-top: 30px;
     text-align: center;
     line-height: 14px;
+    margin-bottom: 80px;
+}
+.subtitle__text {
+    color: #86878b;
+    font-family: "Open Sans";
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
-    margin-bottom: 80px;
+
 }
 
-.wrapper   {
+.awesome__cards   {
         display: flex;
         justify-content: space-between;
         margin-left: 143px;
@@ -68,20 +70,29 @@ body {
     }
 
 
-.card {
+.awesome__card-item {
     font-size: 100%;
     text-align: center;
     width: 350px;
     margin-bottom: 105px;
+    
    
 }
-.icon {
+.card-item__img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 29px;
     width: 70px;
     height: 70px;
-    margin-bottom: 29px;
-    
+    border: 3px solid #ff8b38;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.card-title {
+
+
+.card-item__title {
     margin-bottom: 25px;
     color: #333333;
     font-family: "Open Sans";
@@ -94,7 +105,7 @@ body {
     
 }
 
-.card-text {
+.card-item__text {
     color: #86878b;
     font-family: "Open Sans";
     font-size: 14px;

@@ -70,7 +70,7 @@ body {
     }
 
 
-.awesome__card-item {
+.awesome-cards__item {
     font-size: 100%;
     text-align: center;
     width: 350px;
@@ -78,7 +78,7 @@ body {
     
    
 }
-.card-item__img {
+.awesome-cards__img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 29px;
@@ -90,9 +90,12 @@ body {
     align-items: center;
     justify-content: center;
 }
+/* .awesome-cards__icon {
+    width: 100%;
+    height: 100%;
+} */
 
-
-.card-item__title {
+.awesome-cards__title {
     margin-bottom: 25px;
     color: #333333;
     font-family: "Open Sans";
@@ -105,7 +108,7 @@ body {
     
 }
 
-.card-item__text {
+.awesome-cards__text {
     color: #86878b;
     font-family: "Open Sans";
     font-size: 14px;

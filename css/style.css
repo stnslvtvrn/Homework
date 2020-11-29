@@ -61,7 +61,7 @@ body {
 
 }
 
-.awesome__cards   {
+.awesome-cards   {
         display: flex;
         justify-content: space-between;
         margin-left: 143px;

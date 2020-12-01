@@ -14,7 +14,7 @@ body {
 
 .container {
     max-width: 1400px;
-    border: 1px solid black;
+    
     margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@ body {
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
-    
+   
 }
 
 
@@ -45,6 +45,18 @@ body {
     width: 64px;
     margin: auto;
 }
+
+/* underline через псевдо
+.awesome__title::after {
+    display: block;
+    border-bottom: 2px solid rgb(255, 147, 6);
+    width: 64px;
+    content: ' ';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+} */
 
 .awesome__subtitle {
     margin-top: 30px;
@@ -62,10 +74,10 @@ body {
 }
 
 .awesome-cards   {
-        display: flex;
-        justify-content: space-between;
-        margin-left: 143px;
-        margin-right: 143px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 143px;
+    margin-right: 143px;
         
     }
 
@@ -118,3 +130,113 @@ body {
     line-height: 20px;
     text-align: center;
 }
+
+/* Секция с футером, вторая домашка
+
+
+*/
+.axure-main {
+    
+    background-image: url(/img/u25_state0.jpg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+      
+}
+.axure-main-content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+.axure-main__title {
+    padding-top: 74px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+.axure-main__title::after {
+    display: block;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 74px;
+    content: ' ';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    margin-bottom: 35px;
+}
+.axure-main__subtitle-text {
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.axure-main__button {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    border: 2px solid white;
+    display: inline-block;
+    color: white;
+    width: 135px;
+    height: 42px;
+    text-align: center;
+    margin-top: 33px;
+    margin-bottom: 63px;
+    outline: none;
+    
+}
+
+.axure-main__button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  
+}
+.axure-main__button:active{
+    background-color: rgba(255, 255, 255, 0.7);
+  
+}
+
+.axure-footer {
+    
+    background-color: black;
+}
+.axure-footer__list {
+   padding-top: 38px;
+   margin-bottom: 15px; 
+}
+.axure-footer__social {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 317px;
+    margin: auto;
+
+}
+.axure-footer__text {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    
+}
+
+.axure-footer-copyright {
+    padding-bottom: 15px;
+}
+

@@ -241,6 +241,9 @@ body {
 }
 
 /* Price section */
+.price-wrapper {
+    background-color: #f5f5f5;;
+}
 
 .price-cards {
     margin-left: 146px;
@@ -253,7 +256,7 @@ body {
 .price__title {
     color: #212121;
     font-size: 36px;
-    margin-top: 108px;
+    padding-top: 108px;
     text-align: center;
     line-height: 26px;
     text-transform: uppercase;

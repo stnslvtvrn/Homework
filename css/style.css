@@ -18,14 +18,11 @@ body {
     margin: 0 auto;
 }
 
-
-
-
-.awesome__title {
+.title {
     
     color: #212121;
     font-size: 36px;
-    margin-top: 108px;
+    padding-top: 108px;
     margin-bottom: 30px;
     text-align: center;
     line-height: 26px;
@@ -38,27 +35,7 @@ body {
    
 }
 
-
-.awesome__underline {
-    
-    border-bottom: 2px solid #ff8b38;
-    width: 64px;
-    margin: auto;
-}
-
-/* underline через псевдо
-.awesome__title::after {
-    display: block;
-    border-bottom: 2px solid rgb(255, 147, 6);
-    width: 64px;
-    content: ' ';
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    
-} */
-
-.awesome__subtitle {
+.subtitle {
     margin-top: 30px;
     text-align: center;
     line-height: 14px;
@@ -71,6 +48,26 @@ body {
     font-style: normal;
     letter-spacing: normal;
 
+}
+
+/* 
+.awesome__underline {
+    
+    border-bottom: 2px solid #ff8b38;
+    width: 64px;
+    margin: auto;
+} */
+
+/* underline через псевдо */
+.awesome__title::after {
+    display: block;
+    border-bottom: 2px solid rgb(255, 147, 6);
+    width: 64px;
+    content: ' ';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
 }
 
 .awesome-cards   {
@@ -241,8 +238,8 @@ body {
 }
 
 /* Price section */
-.price-wrapper {
-    background-color: #f5f5f5;;
+.price {
+    background-color: #f5f5f5;
 }
 
 .price-cards {
@@ -253,20 +250,6 @@ body {
     align-items: flex-end;
 }
 
-.price__title {
-    color: #212121;
-    font-size: 36px;
-    padding-top: 108px;
-    text-align: center;
-    line-height: 26px;
-    text-transform: uppercase;
-    color: #212121;
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-
-}
 
 .price__title::after {
     display: block;
@@ -278,12 +261,7 @@ body {
     margin-top: 30px;
 }
 
-.price__subtitle {
-    margin-top: 30px;
-    text-align: center;
-    line-height: 14px;
-    margin-bottom: 80px;  
-}
+
 
 .price__subtitle-text {
     color: #86878b;
@@ -293,19 +271,7 @@ body {
     letter-spacing: normal;
 }
 
-.price-cards__title {
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-size: 20px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 24px;
-    text-align: center;
-    margin-top: 21px;
-    margin-bottom: 21px;
 
-}
 
 .price__card-element {
     width: 343px;
@@ -314,36 +280,24 @@ body {
     margin-bottom: 96px;
 }
     
-.price__card-item1, .price__card-item2, .price__card-item3, .price__card-item3_nonborder {
+.price__card-item.first, .price__card-item.second, .price__card-item.third, .price__card-item.third-nonborder {
     background-color:#333333 ;
 }
-.price__card-item1 {
+.price__card-item.first {
     border-bottom: 2px solid #fff;
 }
-.price__card-item2 {
+.price__card-item.second {
     border-bottom: 2px solid #fff;
 }
-.price__card-item3 {
+.price__card-item.third {
     border-bottom: 5px solid #ff8b38;
 }
-.price__card-item4 {
+.price__card-item.fourth {
     background-color: #ff8b38 ;
-    border-top: 1px solid #FFF;
+    
 }
-.price-cards__favorite {
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-size: 14px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 24px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 13px;
-    margin-bottom: 15px;
 
-}
+
 .price__card-item p {
     color: #86878b;
     font-family: "Open Sans";
@@ -358,7 +312,59 @@ body {
     margin-bottom: 14px;
 
 }
-.price-cards__price {
+.price__card-item {
+    background-color: #fff;
+    border-bottom: 1px solid #f5f5f5;
+}
+.third-nonborder {
+    border-bottom: 0;
+}
+.price__card-item .price-cards__favorite {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 15px;
+
+}
+
+
+
+.price__card-item .price-cards__condition {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 19px;
+    text-transform: none;
+}
+.price-cards__title {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 21px;
+
+}
+
+.price__card-item .price-cards__price {
     color: #ffffff;
     font-family: Raleway;
     font-size: 94px;
@@ -371,24 +377,105 @@ body {
     margin-bottom: 10px;
 
 }
-
 .money {
+    color: #ffffff;
     font-size: 35px;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
 }
 
-.price-cards__condition {
-    opacity: 0.5;
-    color: #ffffff;
+/* Секция с комментариями */
+.reviews__title::after {
+    display: block;
+    border-bottom: 2px solid rgb(255, 147, 6);
+    width: 64px;
+    content: ' ';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+.reviews__subtitle {
+    margin-bottom: 55px;
+}
+
+.reviews-cards   {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
+        
+    }
+
+.reviews-cards__item {
+    font-size: 100%;
+    text-align: center;
+    width: 273px;
+    margin-bottom: 105px;
+     
+       
+    }    
+    
+.reviews-cards__text {
+    background-color: #f5f5f5;
+    padding: 24px 13px 41px 12px;
+    text-align: start;
+    color: #86878b;
     font-family: "Open Sans";
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     font-style: italic;
     letter-spacing: normal;
-    line-height: 24px;
-    text-align: center;
-    margin-top: 17px;
-    margin-bottom: 19px;
+    line-height: normal;
+        
+    }
+.reviews-cards__comment {
+    position: relative;
+}
+.reviews-cards__text::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 25px; bottom: -20px; /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-top: 10px solid #f5f5f5; /* Добавляем треугольник */
+
+    }
+
+.reviews-cards__author {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 70px;
+    align-content: flex-start;
+    justify-content: center;
+    
+}
+.reviews-cards__author-img {
+    width: 70px;
+    height: 70px;
+    
+}
+.reviews-cards__author-name {
+    margin-left: 15px;
+    margin-bottom: 8px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.reviews-cards__author-job {
+   text-align: left;
+   margin-left: 15px;
+   color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
 }

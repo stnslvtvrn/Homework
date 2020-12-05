@@ -249,7 +249,10 @@ body {
     justify-content: space-between;
     align-items: flex-end;
 }
-
+.price-cards div:nth-child(2){
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
 .price__title::after {
     display: block;
@@ -271,10 +274,12 @@ body {
     letter-spacing: normal;
 }
 
-
+.price__card {
+    width: 343px;
+}
 
 .price__card-element {
-    width: 343px;
+    
     display: flex;
     flex-direction: column;
     margin-bottom: 96px;
@@ -407,7 +412,10 @@ body {
     margin-right: 170px;
         
     }
-
+.reviews-cards .reviews-cards__item:nth-child(2) {
+    margin-left: 145px;
+    margin-right: 145px;
+}
 .reviews-cards__item {
     font-size: 100%;
     text-align: center;
@@ -479,3 +487,4 @@ body {
     letter-spacing: normal;
     line-height: normal;
 }
+

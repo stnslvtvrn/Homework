@@ -220,6 +220,22 @@ body {
     margin: auto;
 
 }
+.footer__social-element {
+    font-size: 23px;
+    
+    
+}
+
+.fab, .fas {
+    color: #86878b;
+    transition: all 1s ease;
+}
+.fab:hover {
+    color: #ff8b38;
+}
+.fas:hover {
+    color: #ff8b38;
+}
 .footer__text {
     opacity: 0.5;
     color: #ffffff;
@@ -477,9 +493,9 @@ body {
     line-height: normal;
 }
 .reviews-cards__author-job {
-   text-align: left;
-   margin-left: 15px;
-   color: #86878b;
+    text-align: left;
+    margin-left: 15px;
+    color: #86878b;
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
@@ -488,3 +504,42 @@ body {
     line-height: normal;
 }
 
+.social-list  {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 634px;
+    margin: auto;
+    font-size: 46px;
+}
+
+.social__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 22px  162px 0 152px;
+}
+
+.media__title {
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.media__text {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    text-align: left;
+}
+
+.media {
+    max-width: 360px;
+  
+}

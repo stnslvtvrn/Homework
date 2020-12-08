@@ -1,16 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/css/reset.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,600&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,600&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 	<link rel="stylesheet" href="/css/style.css">
 	<title>Homework1</title>
 </head>
+
 <body>
+	<section class="social">
+		<div class="container">
+			<div class="social__wrapper">
+				<div class="media">
+					<h2 class="media__title">
+						Social Media
+					</h2>
+					<p class="media__text text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Aenean euismod bibendum laoreet.
+					</p>
+				</div>
+				<nav class="social-links">
+					<ul class="social-list">
+						<li class="social-element">
+							<a href="#" class="inst"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li class="social-element">
+							<a href="#" class="twitter">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li class="social-element">
+							<a href="#" class="google">
+								<i class="fab fa-google-plus-g"></i>
+							</a>
+						</li>
+						<li class="social-element">
+							<a href="#" class="pint">
+								<i class="fab fa-pinterest"></i>
+							</a>
+						</li>
+						<li class="social-element">
+							<a href="#" class="inst">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</li>
+						<li class="social-element">
+							<a href="#" class="wave">
+								<i class="fab fa-stumbleupon"></i>
+							</a>
+						</li>
+						<li class="social-element">
+							<a href="#" class="wifi">
+								<i class="fas fa-rss"></i>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</section>
 	<section class="awesome">
 		<div class="container">
 			<div class="awesome-wrapper">
@@ -19,30 +76,33 @@
 					<p class='subtitle__text'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 				</div>
 				<div class="awesome-cards">
-				<div class="awesome-cards__item">
-					<div class="awesome-cards__img">
-						<img class="awesome-cards__icon" src="/img/idea.png" alt="idea">
+					<div class="awesome-cards__item">
+						<div class="awesome-cards__img">
+							<img class="awesome-cards__icon" src="/img/idea.png" alt="idea">
+						</div>
+						<h3 class="awesome-cards__title">Thoughtful Design</h3>
+						<p class="awesome-cards__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
+							nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!</p>
 					</div>
-					<h3 class="awesome-cards__title">Thoughtful Design</h3>
-					<p class="awesome-cards__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!</p>
-				</div>
-				<div class="awesome-cards__item">
-					<div class="awesome-cards__img">
-						<img class="awesome-cards__icon" src="/img/keyboard.png" alt="keyboard">
+					<div class="awesome-cards__item">
+						<div class="awesome-cards__img">
+							<img class="awesome-cards__icon" src="/img/keyboard.png" alt="keyboard">
+						</div>
+						<h3 class="awesome-cards__title">Well Crafted</h3>
+						<p class="awesome-cards__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Exercitationem, aut?</p>
 					</div>
-					<h3 class="awesome-cards__title">Well Crafted</h3>
-					<p class="awesome-cards__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, aut?</p>
-				</div>
-				<div class="awesome-cards__item">
-					<div class="awesome-cards__img">
-						<img class="awesome-cards__icon" src="/img/lightning.png" alt="lightning">
+					<div class="awesome-cards__item">
+						<div class="awesome-cards__img">
+							<img class="awesome-cards__icon" src="/img/lightning.png" alt="lightning">
+						</div>
+						<h3 class="awesome-cards__title">Easy to customize</h3>
+						<p class="awesome-cards__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+							Possimus, fugiat praesentium dicta modi aliquid nostrum?!</p>
 					</div>
-					<h3 class="awesome-cards__title">Easy to customize</h3>
-					<p class="awesome-cards__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, fugiat praesentium dicta modi aliquid nostrum?!</p>
 				</div>
 			</div>
 		</div>
-	</div>
 	</section>
 	<section class="price">
 		<div class="container">
@@ -55,42 +115,98 @@
 					<div class="price-cards">
 						<div class="price__card">
 							<ul class="price__card-element">
-								<li class="price__card-item first"><h3 class="price-cards__title">Basic</h3></li>
-								<li class="price__card-item second"><p class="price-cards__price"><span class="money">$</span>0</p></li>
-								<li class="price__card-item third"><p class="price-cards__condition">Free for Life</p></li>
-								<li class="price__card-item"><p class="price-cards__services">1 gb of space</p></li>
-								<li class="price__card-item"><p class="price-cards__services">10 gb of bandwidth</p></li>
-								<li class="price__card-item"><p class="price-cards__services">3 websites</p></li>
-								<li class="price__card-item"><p class="price-cards__services">basic customization</p></li>
-								<li class="price__card-item"><p class="price-cards__services">wordpress integration</p></li>
-								<li class="price__card-item"><p class="price-cards__services">email support</p></li>
+								<li class="price__card-item first">
+									<h3 class="price-cards__title">Basic</h3>
+								</li>
+								<li class="price__card-item second">
+									<p class="price-cards__price"><span class="money">$</span>0</p>
+								</li>
+								<li class="price__card-item third">
+									<p class="price-cards__condition">Free for Life</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">1 gb of space</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">10 gb of bandwidth</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">3 websites</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">basic customization</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">wordpress integration</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">email support</p>
+								</li>
 							</ul>
 						</div>
 						<div class="price__card">
 							<ul class="price__card-element">
-								<li class="price__card-item first"><h3 class="price-cards__title">Professional</h3></li>
-								<li class="price__card-item second"><p class="price-cards__price"><span class="money">$</span>19</p></li>
-								<li class="price__card-item third-nonborder"><p class="price-cards__condition">Monthly Payment</p></li>
-								<li class="price__card-item fourth"><p class="price-cards__favorite">Our most popular</p></li>
-								<li class="price__card-item"><p class="price-cards__services">5 gb of space</p></li>
-								<li class="price__card-item"><p class="price-cards__services">50 gb of bandwidth</p></li>
-								<li class="price__card-item"><p class="price-cards__services">12 websites</p></li>
-								<li class="price__card-item"><p class="price-cards__services">advanced customization</p></li>
-								<li class="price__card-item"><p class="price-cards__services">wordpress integration</p></li>
-								<li class="price__card-item"><p class="price-cards__services">email support</p></li>
+								<li class="price__card-item first">
+									<h3 class="price-cards__title">Professional</h3>
+								</li>
+								<li class="price__card-item second">
+									<p class="price-cards__price"><span class="money">$</span>19</p>
+								</li>
+								<li class="price__card-item third-nonborder">
+									<p class="price-cards__condition">Monthly Payment</p>
+								</li>
+								<li class="price__card-item fourth">
+									<p class="price-cards__favorite">Our most popular</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">5 gb of space</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">50 gb of bandwidth</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">12 websites</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">advanced customization</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">wordpress integration</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">email support</p>
+								</li>
 							</ul>
 						</div>
 						<div class="price__card">
 							<ul class="price__card-element">
-								<li class="price__card-item first"><h3 class="price-cards__title">Enterprise</h3></li>
-								<li class="price__card-item second"><p class="price-cards__price"><span class="money">$</span>70</p></li>
-								<li class="price__card-item third"><p class="price-cards__condition">Monthly Payment</p></li>
-								<li class="price__card-item"><p class="price-cards__services">unlimited space</p></li>
-								<li class="price__card-item"><p class="price-cards__services">unlimited bandwidth</p></li>
-								<li class="price__card-item"><p class="price-cards__services">100 websites</p></li>
-								<li class="price__card-item"><p class="price-cards__services">advanced customization</p></li>
-								<li class="price__card-item"><p class="price-cards__services">wordpress integration</p></li>
-								<li class="price__card-item"><p class="price-cards__services">24/7 customer support</p></li>
+								<li class="price__card-item first">
+									<h3 class="price-cards__title">Enterprise</h3>
+								</li>
+								<li class="price__card-item second">
+									<p class="price-cards__price"><span class="money">$</span>70</p>
+								</li>
+								<li class="price__card-item third">
+									<p class="price-cards__condition">Monthly Payment</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">unlimited space</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">unlimited bandwidth</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">100 websites</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">advanced customization</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">wordpress integration</p>
+								</li>
+								<li class="price__card-item">
+									<p class="price-cards__services">24/7 customer support</p>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -108,7 +224,8 @@
 				<div class="reviews-cards">
 					<div class="reviews-cards__item">
 						<div class="reviews-cards__comment">
-							<p class="reviews-cards__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!</p>
+							<p class="reviews-cards__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!</p>
 						</div>
 						<div class="reviews-cards__author">
 							<img src="/img/avatar.png" alt="avatar" class="reviews-cards__author-img">
@@ -118,7 +235,8 @@
 					</div>
 					<div class="reviews-cards__item">
 						<div class="reviews-cards__comment">
-							<p class="reviews-cards__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!</p>
+							<p class="reviews-cards__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!</p>
 						</div>
 						<div class="reviews-cards__author">
 							<img src="/img/avatar.png" alt="avatar" class="reviews-cards__author-img">
@@ -128,7 +246,8 @@
 					</div>
 					<div class="reviews-cards__item">
 						<div class="reviews-cards__comment">
-							<p class="reviews-cards__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!</p>
+							<p class="reviews-cards__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!</p>
 						</div>
 						<div class="reviews-cards__author">
 							<img src="/img/avatar.png" alt="avatar" class="reviews-cards__author-img">
@@ -140,7 +259,7 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<section class="axure">
 		<div class="container_width">
 			<div class="axure-main">
@@ -150,7 +269,8 @@
 					</h2>
 					<div class="axure-main__subtitle">
 						<h3 class="axure-main__subtitle-text">
-							Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
+							Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than
+							ever!
 						</h3>
 					</div>
 					<div class="axure-main-button">
@@ -160,7 +280,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
 	</section>
 	<footer class="footer">
@@ -170,36 +290,36 @@
 					<div class="footer__list">
 						<ul class="footer__social">
 							<li class="footer__social-element">
-								<a href="#" class="inst"><img src="/img/32x32.png" alt="inst" class="inst-ico"></a>
+								<a href="#" class="inst"><i class="fab fa-facebook-f"></i></a>
 							</li>
 							<li class="footer__social-element">
 								<a href="#" class="twitter">
-									<img src="/img/32x32.png" alt="inst" class="twitter-ico">
+									<i class="fab fa-twitter"></i>
 								</a>
 							</li>
 							<li class="footer__social-element">
 								<a href="#" class="google">
-									<img src="/img/32x32.png" alt="inst" class="twitter-ico">
+									<i class="fab fa-google-plus-g"></i>
 								</a>
 							</li>
 							<li class="footer__social-element">
 								<a href="#" class="pint">
-									<img src="/img/32x32.png" alt="inst" class="twitter-ico">
+									<i class="fab fa-pinterest"></i>
 								</a>
 							</li>
 							<li class="footer__social-element">
 								<a href="#" class="inst">
-									<img src="/img/32x32.png" alt="inst" class="twitter-ico">
+									<i class="fab fa-instagram"></i>
 								</a>
 							</li>
 							<li class="footer__social-element">
 								<a href="#" class="wave">
-									<img src="/img/32x32.png" alt="inst" class="twitter-ico">
+									<i class="fab fa-stumbleupon"></i>
 								</a>
 							</li>
 							<li class="footer__social-element">
 								<a href="#" class="wifi">
-									<img src="/img/32x32.png" alt="inst" class="twitter-ico">
+									<i class="fas fa-rss"></i>
 								</a>
 							</li>
 						</ul>
@@ -212,4 +332,5 @@
 		</div>
 	</footer>
 </body>
+
 </html>

@@ -360,31 +360,34 @@
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</p>
 				<form action="#" method='GET' class="contact-form">
-					<ul class="contact__list">
-						<li class="contact__list-item">
-							<label for="name">Name</label>
-							<input class="contact__input" type="text" id="name" name='user_name' placeholder="Name">
-						</li>
-						<li class="contact__list-item">
-							<label for="mail">E-mail</label>
-							<input class="contact__input" type="email" id="mail" name='user_mail' placeholder="E-mail">
-						</li>
-						<li class="contact__list-item">
-							<label for="object">object</label>
-							<input class="contact__input" type="text" id="subject" name='user__subject'
-								placeholder="Subject">
-						</li>
-					</ul>
-					<div class="message">
-						<label class="contact__message" for="Message">Message</label>
-						<textarea class="contact__textarea" id="Message" name="Mesasge" rows="7" cols="1">
-
-					</textarea>
+					<div class="formblock">
+						<ul class="contact__list">
+							<li class="contact__list-item">
+								<label for="name">Name</label>
+								<input class="contact__input" type="text" id="name" name='user_name' placeholder="Name">
+							</li>
+							<li class="contact__list-item">
+								<label for="mail">E-mail</label>
+								<input class="contact__input" type="email" id="mail" name='user_mail'
+									placeholder="E-mail">
+							</li>
+							<li class="contact__list-item">
+								<label for="object">object</label>
+								<input class="contact__input" type="text" id="subject" name='user__subject'
+									placeholder="Subject">
+							</li>
+						</ul>
+						<div class="message">
+							<label class="contact__message" for="Message">Message</label>
+							<textarea class="contact__textarea" id="Message" name="Mesasge" rows="7" cols="1">
+						</textarea>
+						</div>
 					</div>
+					<button class="contact__btn" type="submit">
+						Send Message
+					</button>
 				</form>
-				<button class="contact__btn" type="submit">
-					Send Message
-				</button>
+
 			</div>
 		</div>
 	</section>

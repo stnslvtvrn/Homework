@@ -13,7 +13,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap"
 		rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link rel="stylesheet" href="/css/jquery.fancybox.css">
+	<link rel="stylesheet" href="/css/slick.css">
 	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/media.css">
 	<title>Homework1</title>
 </head>
 
@@ -25,6 +28,9 @@
 					<a href="#" class="header-logo__link"><span title='AXIT' class="header-logo__img"></span></a>
 				</div>
 				<nav class="header-nav">
+					<div class="menu__btn">
+						<span class="header-nav__menu"></span>
+					</div>
 					<ul class="header-nav__list">
 						<li class="header-nav__list-item"><a href="#" class="header-nav__link">Features</a></li>
 						<li class="header-nav__list-item"><a href="#" class="header-nav__link">About
@@ -36,6 +42,7 @@
 						<li class="header-nav__list-item"><a href="#" class="header-nav__link">Contact
 							</a></li>
 					</ul>
+
 				</nav>
 			</div>
 		</div>
@@ -64,24 +71,27 @@
 						<ul class="fullscreen__list">
 							<li class="fullscreen__list-item">
 								<label for="name">Name</label>
-								<input type="text" id="name" name='user_name' placeholder="Name">
+								<input type="text" id="name" name='user_name' placeholder="Name" required>
 							</li>
 							<li class="fullscreen__list-item">
 								<label for="mail">E-mail</label>
-								<input type="email" id="mail" name='user_mail' placeholder="E-mail">
+								<input type="email" id="mail" name='user_mail' placeholder="E-mail" required>
 							</li>
 							<li class="fullscreen__list-item">
 								<label for="password">Password</label>
 								<input class="fullscreen__password" type="password" id="password" name='user_password'
-									placeholder="Password">
+									placeholder="Password" required>
 							</li>
 						</ul>
+						<button class="fullscreen__trial-link" type="submit">Get Started</button>
+
 					</form>
-					<a href="#" class="fullscreen__trial-link">Get Started</a>
+
 				</div>
 			</div>
 		</div>
 	</section>
+
 	<section class="social">
 		<div class="container">
 			<div class="social__wrapper">
@@ -134,6 +144,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="awesome">
 		<div class="container">
 			<div class="awesome-wrapper">
@@ -170,6 +181,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="price">
 		<div class="container">
 			<div class="price-wrapper">
@@ -274,12 +286,126 @@
 									<p class="price-cards__services">24/7 customer support</p>
 								</li>
 							</ul>
+
 						</div>
 					</div>
+
+
+					<div class="price-cards slide">
+						<div class="slider">
+							<div class="slider__item">
+								<div class="price__card">
+									<ul class="price__card-element">
+										<li class="price__card-item first">
+											<h3 class="price-cards__title">Basic</h3>
+										</li>
+										<li class="price__card-item second">
+											<p class="price-cards__price"><span class="money">$</span>0</p>
+										</li>
+										<li class="price__card-item third">
+											<p class="price-cards__condition">Free for Life</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">1 gb of space</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">10 gb of bandwidth</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">3 websites</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">basic customization</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">wordpress integration</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">email support</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="slider__item">
+								<div class="price__card">
+									<ul class="price__card-element">
+										<li class="price__card-item first">
+											<h3 class="price-cards__title">Professional</h3>
+										</li>
+										<li class="price__card-item second">
+											<p class="price-cards__price"><span class="money">$</span>19</p>
+										</li>
+										<li class="price__card-item third-nonborder">
+											<p class="price-cards__condition">Monthly Payment</p>
+										</li>
+										<li class="price__card-item fourth">
+											<p class="price-cards__favorite">Our most popular</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">5 gb of space</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">50 gb of bandwidth</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">12 websites</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">advanced customization</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">wordpress integration</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">email support</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="slider__item">
+								<div class="price__card">
+									<ul class="price__card-element">
+										<li class="price__card-item first">
+											<h3 class="price-cards__title">Enterprise</h3>
+										</li>
+										<li class="price__card-item second">
+											<p class="price-cards__price"><span class="money">$</span>70</p>
+										</li>
+										<li class="price__card-item third">
+											<p class="price-cards__condition">Monthly Payment</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">unlimited space</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">unlimited bandwidth</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">100 websites</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">advanced customization</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">wordpress integration</p>
+										</li>
+										<li class="price__card-item">
+											<p class="price-cards__services">24/7 customer support</p>
+										</li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
 				</div>
 			</div>
 		</div>
 	</section>
+
 	<section class="reviews">
 		<div class="container">
 			<div class="reviews-wrapper">
@@ -289,9 +415,11 @@
 				</div>
 				<div class="reviews-cards">
 					<div class="reviews-cards__item">
+						<div class="review-wrap">
 						<div class="reviews-cards__comment">
 							<p class="reviews-cards__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-								Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!</p>
+								Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!
+							</p>
 						</div>
 						<div class="reviews-cards__author">
 							<img src="/img/avatar.png" alt="avatar" class="reviews-cards__author-img">
@@ -299,10 +427,13 @@
 							<p class="reviews-cards__author-job">Manager</p>
 						</div>
 					</div>
-					<div class="reviews-cards__item">
+				</div>
+				<div class="reviews-cards__item">
+					<div class="review-wrap">
 						<div class="reviews-cards__comment">
 							<p class="reviews-cards__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-								Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!</p>
+								Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!
+							</p>
 						</div>
 						<div class="reviews-cards__author">
 							<img src="/img/avatar.png" alt="avatar" class="reviews-cards__author-img">
@@ -310,10 +441,13 @@
 							<p class="reviews-cards__author-job">Freelancer</p>
 						</div>
 					</div>
-					<div class="reviews-cards__item">
+				</div>
+				<div class="reviews-cards__item">
+					<div class="review-wrap">
 						<div class="reviews-cards__comment">
 							<p class="reviews-cards__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-								Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!</p>
+								Vitae nemo quod eum laboriosam amet maxime laudantium. Perferendis sunt sit vitae!
+							</p>
 						</div>
 						<div class="reviews-cards__author">
 							<img src="/img/avatar.png" alt="avatar" class="reviews-cards__author-img">
@@ -324,8 +458,9 @@
 				</div>
 			</div>
 		</div>
+		</div>
 	</section>
-
+	
 	<section class="axure">
 		<div class="axure-main">
 			<div class="container">
@@ -350,12 +485,15 @@
 
 		</div>
 	</section>
+	
 	<section class="contact">
 		<div class="container">
 			<div class="contact-wrapper">
+
 				<h2 class="contact__title title">
 					CONTACT US
 				</h2>
+
 				<p class="contact__subtitle subtitle">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 				</p>
@@ -439,7 +577,11 @@
 				</div>
 			</div>
 		</div>
-	</footer>
+	</footer> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="/js/jquery.fancybox.min.js"></script>
+	<script src="/js/slick.min.js"></script>
+	<script src="/js/main.js"></script>
 </body>
 
 </html>

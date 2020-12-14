@@ -1,0 +1,203 @@
+
+@media (max-width: 800px){
+    .price-cards {
+        display: none;
+
+    }
+    .price-cards.slide {
+        display: block;
+        margin: 0;
+
+
+    }
+    .price__card-element, .price-cards {
+        margin: 0;
+    }
+    .price__card {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+    .price-cards div:nth-child(2){
+        margin: 0;
+    }
+    .price__card-item .price-cards__price{
+        font-size: 65px;
+    }
+    .awesome__title, .price__title, .reviews__title, .axure-main__title, .contact__title {
+        padding-top: 60px;
+        font-size: 24px;
+    }
+    .reviews-cards {
+        flex-wrap: wrap;
+    }
+    .reviews-cards__item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .reviews-cards__comment {
+        width: 250px;
+    }
+    .contact__subtitle {
+        margin-bottom: 40px;
+    }
+   
+}
+
+
+@media(max-width: 600px) {
+    .menu__btn {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 21px;
+    }
+    .header-nav__list {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 71px;
+        text-align: center;
+        transform: translateY(-300%);
+        transition: all .5s ease;
+        z-index: 10;
+    }
+    .header-nav__list_active {
+        transform: translateY(0);
+        z-index: 10;
+    }
+    .header-nav__list-item {
+        background-color: rgb(0, 0, 0);
+        margin-left: 0;
+        padding: 5px 0;
+    }
+    .header-nav__list-item:hover {
+        border: 1px solid #ff8b38;
+    }
+    .header-nav__link {
+        width: 100%;
+        display: block;
+    }
+    .fullscreen-wrapper {
+        flex-wrap: wrap;
+        padding-top: 30px;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .fullscreen__button {
+        margin-bottom: 20px;
+    }
+    .fullscreen-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+    .fullscreen-button {
+        text-align: center;
+    }
+    .fullscreen__text {
+        text-align: center;
+    }
+    .fullscreen__title::after {
+        margin-left: auto;
+    }
+    .fullscreen__title {
+        font-size: 24px;
+        text-align: center;
+    }
+    .fullscreen__logo {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+    }
+    .fullscreen {
+        /* align-items: flex-start; */
+    }
+    .social__wrapper {
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .media {
+        margin-bottom: 10px;
+    }
+    .media__title {
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .media__title, .media__text {
+        text-align: center;
+    }
+    
+    .awesome__subtitle {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    .awesome-cards {
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
+    .awesome-cards__item {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .awesome-cards__img {
+        transform: scale(.8, .8);
+        margin-bottom: 10px;
+        
+    }
+    .reviews-cards__author-name {
+        font-size: 16px;
+    }
+    .axure-main__subtitle-text {
+        font-size: 14px;
+    }
+    .message {
+        margin-left: 15px;
+    }
+    .contact__list {
+        margin-right: 15px;
+    }
+    .contact__btn {
+        margin-bottom: 40px;
+    }
+}
+    @media(max-width: 524px) {
+        .fullscreen-trial {
+            width: 280px;
+        }
+        .fullscreen-trial input {
+            width: 250px;
+        }
+        .fullscreen__trial-title {
+            font-size: 16px;
+        }
+        .social-list {
+            font-size: 6vw;
+        }
+        .awesome-cards__title {
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        .price__card {
+            width: 100%;
+           
+    
+        }
+        .price-cards__price {
+            font-size: 65px;
+        }
+    }
+   

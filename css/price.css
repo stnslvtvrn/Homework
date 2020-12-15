@@ -1,0 +1,156 @@
+/* Price section */
+
+.price {
+    background-color: #f5f5f5;
+}
+
+.price-cards.slide {
+    display: none;
+}
+
+.price-content {}
+
+.price-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.price-cards div:nth-child(2) {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.price__title::after {
+    display: block;
+    border-bottom: 2px solid rgb(255, 147, 6);
+    width: 64px;
+    content: ' ';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.price__subtitle-text {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.price__card {
+    width: 343px;
+}
+
+.price__card-element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 96px;
+}
+
+.price__card-item.first, .price__card-item.second, .price__card-item.third, .price__card-item.third-nonborder {
+    background-color: #333333;
+}
+
+.price__card-item.first {
+    border-bottom: 2px solid #fff;
+}
+
+.price__card-item.second {
+    border-bottom: 2px solid #fff;
+}
+
+.price__card-item.third {
+    border-bottom: 5px solid #ff8b38;
+}
+
+.price__card-item.fourth {
+    background-color: #ff8b38;
+}
+
+.price__card-item p {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.price__card-item {
+    background-color: #fff;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.third-nonborder {
+    border-bottom: 0;
+}
+
+.price__card-item .price-cards__favorite {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 15px;
+}
+
+.price__card-item .price-cards__condition {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 19px;
+    text-transform: none;
+}
+
+.price-cards__title {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+.price__card-item .price-cards__price {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 94px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.money {
+    color: #ffffff;
+    font-size: 35px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}

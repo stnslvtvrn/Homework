@@ -1,0 +1,77 @@
+
+/* 
+.awesome__underline {
+    
+    border-bottom: 2px solid #ff8b38;
+    width: 64px;
+    margin: auto;
+} */
+
+/* underline через псевдо */
+
+.awesome__title::after {
+    display: block;
+    border-bottom: 2px solid rgb(255, 147, 6);
+    width: 64px;
+    content: ' ';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.awesome-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.awesome-cards__item {
+    font-size: 100%;
+    text-align: center;
+    width: 350px;
+    margin-bottom: 105px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.awesome-cards__img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 29px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #ff8b38;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .awesome-cards__icon {
+    width: 100%;
+    height: 100%;
+} */
+
+.awesome-cards__title {
+    margin-bottom: 25px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+}
+
+.awesome-cards__text {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+}

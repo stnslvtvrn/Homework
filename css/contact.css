@@ -1,0 +1,85 @@
+/* Блок Contact US */
+
+.contact__title::after {
+    display: block;
+    border-bottom: 2px solid rgb(255, 147, 6);
+    width: 64px;
+    content: ' ';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.contact__subtitle {
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 80px;
+}
+
+.formblock {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 43px;
+}
+
+.contact__list, .message {
+    width: 527px;
+}
+
+.contact__list {
+    margin-right: 34px;
+}
+
+.contact__list-item, .contact__input, .contact__textarea {
+    width: 100%;
+}
+
+.contact__textarea {
+    height: 135px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    outline: none;
+    resize: none;
+    padding: 0;
+}
+
+.contact__message {
+    display: block;
+    color: #bdbdbd;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: flex-start;
+    margin-left: 34px;
+}
+
+.contact__btn {
+    display: block;
+    width: 148px;
+    height: 46px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto 80px;
+    background-color: #ff8b38;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    transition: 0.3s all ease;
+}
+
+.contact__btn:active {
+    transform: scale(0.95, 0.95);
+}

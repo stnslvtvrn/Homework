@@ -1,0 +1,76 @@
+/* Секция с футером, вторая домашка
+
+
+*/
+
+.axure {
+    background-image: url(/img/u25_state0.jpg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.axure-main {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+}
+
+.axure-main-content {
+    text-align: center;
+}
+
+.axure-main__title {
+    padding-top: 74px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.axure-main__title::after {
+    display: block;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 74px;
+    content: ' ';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    margin-bottom: 35px;
+}
+
+.axure-main__subtitle-text {
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.axure-main__button {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    border: 2px solid white;
+    display: inline-block;
+    color: white;
+    width: 135px;
+    height: 42px;
+    text-align: center;
+    margin-top: 33px;
+    margin-bottom: 63px;
+    outline: none;
+}
+
+.axure-main__button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.axure-main__button:active {
+    background-color: rgba(255, 255, 255, 0.7);
+}

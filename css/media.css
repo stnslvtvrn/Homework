@@ -1,5 +1,13 @@
 
 @media (max-width: 800px){
+    .fullscreen__title {
+        font-size: 24px;
+        
+    }
+    .fullscreen__logo {
+       
+        width: 100px;
+    }
     .price-cards {
         display: none;
 

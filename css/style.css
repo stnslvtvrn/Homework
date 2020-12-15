@@ -228,6 +228,9 @@ label {
 .fullscreen-trial {
     width: 360px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .fullscreen__trial-title {

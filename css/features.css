@@ -1,0 +1,132 @@
+.features {
+    background-color: #f5f5f5;
+}
+
+.features__tab {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    height: 338px;
+    position: relative;
+}
+
+.features-wrapper {
+    padding-top: 147px;
+    padding-bottom: 114px;
+}
+
+.features__slides {
+    position: relative;
+}
+
+.features__input {
+    position: absolute;
+    display: none;
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+    padding-left: 211px;
+    justify-content: space-between;
+    transition: all 1s ease;
+    margin: 0 -10px;
+}
+
+.tab-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    height: 112px;
+    width: 112px;
+    background-color: #212121;
+    z-index: 10;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+.tab-1 {
+    top: 0;
+}
+
+.tab-2 {
+    top: center;
+}
+
+.tab-3 {
+    bottom: 0;
+}
+
+.features-content {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 476px;
+    margin: 0 10px;
+}
+
+.features-img {
+    margin: 0 10px;
+}
+
+.features__title {
+    margin-bottom: 52px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.features__text {
+    margin-bottom: 51px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #86878b;
+}
+
+.features__btn {
+    display: block;
+    width: 121px;
+    height: 46px;
+    border: none;
+    outline: none;
+    background-color: #ff8b38;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    transition: 0.7s;
+}
+
+.features__btn:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.features__btn:active {
+    transform: scale(.95, .95);
+}
+
+#tab1:checked~.tab-1, #tab2:checked~.tab-2, #tab3:checked~.tab-3 {
+    background-color: #ff8b38;
+}
+
+#tab1:checked~.content-1, #tab2:checked~.content-2, #tab3:checked~.content-3 {
+    display: flex;
+    
+}
+

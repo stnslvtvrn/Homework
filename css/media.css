@@ -53,6 +53,17 @@
     .contact__subtitle {
         margin-bottom: 40px;
     }
+    .formblock {
+        flex-wrap: wrap;
+
+    }
+    .contact__list {
+        margin-right: 0;
+    }
+    .message {
+        margin-top: 20px;
+        margin-left: 0;
+    }
    
 }
 
@@ -171,12 +182,7 @@
     .axure-main__subtitle-text {
         font-size: 14px;
     }
-    .message {
-        margin-left: 15px;
-    }
-    .contact__list {
-        margin-right: 15px;
-    }
+    
     .contact__btn {
         margin-bottom: 40px;
     }
